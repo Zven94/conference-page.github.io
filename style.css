@@ -6,6 +6,7 @@
 body {
   background-color: #d3d3d3;
   color:#272a31;
+  font-family: 'Lato', sans-serif;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
@@ -64,12 +65,25 @@ body {
 
   .home-page-tittles {
     color: #ec5242;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* home page titles h2 style */
+
+  .home-page-h2 {
+    font-size: 18px;
+    font-size: small;
   }
 
   /* home page paragraph style */
 
   .home-page-text {
-  
+    text-align: center;
+    border: 2px solid white;
+    margin: 20px;
+    padding: 10px;
   }
 
   /* home page main content style */
