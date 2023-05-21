@@ -1,0 +1,85 @@
+* {
+  border: 1px solid greenyellow;
+  margin: 0;
+}
+
+body {
+  background-color: #d3d3d3;
+  color:#272a31;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  
+  /* nav style */
+
+  .nav-bar {
+    width: 100vw;
+    height: 10%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* logo for nav */
+  
+  .nav-logo{
+    display: none;
+  }
+
+  /* burger button content style */
+
+  .bugerBtn{
+    width: 50px;
+    height: auto;
+    background-color: transparent;
+  }
+
+  /* burger button */
+
+  .burger-icon {
+    width: 35px;
+    height: 5px;
+    background-color: #272a31;
+    margin: 6px 0;
+  }
+
+  /* home page content style */
+
+  .home-page {
+  }
+
+  /* home page intro content style */
+
+  .home-page-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* home page titles style */
+
+  .home-page-tittles {
+    color: #ec5242;
+  }
+
+  /* home page paragraph style */
+
+  .home-page-text {
+  
+  }
+
+  /* home page main content style */
+
+  .home-page-main-program {
+    background-color: #272a31;
+    color: #d3d3d3;
+  }
+
+  .about-page-speakers-content {
+    background-color: white;
+  }
+}
