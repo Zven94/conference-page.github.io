@@ -30,6 +30,20 @@ main {
   align-items: center;
   text-align: center;
   background-color: #ffffff;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.burger-menu {
+  display: none;
+}
+
+.nav-logo-link {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #414246;
 }
 
 .nav-menuContainer {
@@ -48,14 +62,14 @@ main {
 .nav-logo-img {
   width: 50px;
   height: 50px;
-  background-image: url(image/logo.png);
+  background-image: url(image/logo-no-circle.png);
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .nav-logo{
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .bugerBtn{
@@ -68,9 +82,19 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-size: 2vmin;
-  color: #868686;
   margin: 0;
+}
+
+.desktop-menu-home{
+  color: #868686;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.desktop-menu-about {
+  color: #868686;
+  font-weight: 600;
+  font-size: 17px;
 }
 
 .home-page {
@@ -131,6 +155,7 @@ main {
 /* home page paragraph style */
 
 .home-page-text {
+  background-color: #f8f8f8;
   text-align: center;
   border: 2px solid white;
   margin: 20px;
@@ -140,6 +165,24 @@ main {
 
 .home-page-info {
   margin-bottom: 30px;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.home-page-info-date {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #595959;
+  letter-spacing: -0.08em;
+}
+
+.home-page-info-place {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  color: #868686;
 }
 
 /* ------------------------------------------------------------------- */ 
@@ -160,12 +203,34 @@ main {
   }
 
   .home-page-main-program-container {
+    width: 90%;
     color: #d3d3d3;
+    background-color: rgba(59, 62, 69,0.3);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+  }
+
+  .home-page-main-program-1-oratory {
+    color: #ec5242;
+  }
+
+  .home-page-main-program-2-oratory {
+    color: #ec5242;
+  }
+
+  .home-page-main-program-3-oratory {
+    color: #ec5242;
+  }
+
+  .home-page-main-program-4-oratory {
+    color: #ec5242;
+  }
+
+  .home-page-main-program-5-oratory {
+    color: #ec5242;
   }
 
   .home-page-info-joinNowBtn {
@@ -267,7 +332,7 @@ main {
   /* about page titles h1 style */
 
   .about-page-h1 {
-    font-size: 25px;
+    font-size: 5vmin;
     font-weight: 900;
   }
 
@@ -283,7 +348,7 @@ main {
   .about-page-text {
     color: #000000;
     background-color: #ffffff;
-    width: 100%;
+    width: 64%;
     height: 164px;
     font-size: 14px;
     line-height: 24px;
@@ -310,6 +375,7 @@ main {
   .about-page-info-date {
     color: #7a7a7a;
     font-size: 16px;
+    font-weight: 700;
   }
 
   /* about page contact style */
@@ -317,8 +383,7 @@ main {
   .about-page-info-place {
     color: #5f5f5f;
     font-size: 16px;
-    font-weight: 700;
-    padding: 20px;
+    font-weight: 800;
   }
 
   /* ------------------------------------------------------------------- */ 
@@ -332,6 +397,24 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .about-page-past-logo {
+    width: 24%;
+    height: auto;
+    color: #5f5f5f;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about-page-past-logo-text {
+    width: 38%;
+    height: auto;
+    font-size: 30px;
+    font-family: 'Gothic A1', sans-serif;
   }
 
   /* about page past style */
@@ -371,6 +454,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Lato', sans-serif;
   }
 
   .about-page-past-background-1{

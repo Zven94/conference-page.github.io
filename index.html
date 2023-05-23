@@ -7,10 +7,10 @@
   <title>Block-Chainference</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style_d.css">
-  <script src="main.js"></script>
+  <script src="main.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <!--    Page for block chain coference 2023  -->
@@ -24,14 +24,25 @@
         <div class="burger-icon line2"></div>
         <div class="burger-icon line3"></div>
       </button>
+      <!--burger menu-->
+      <ul class="burger-menu">
+        <div class="burger-menu-style">
+            <li class="burger-menu-exit-button"><button class="exitButton">X</button></li>
+            <li class="burger-menu-homePage-button"><a href="#home-page" class="burger-menu-home-page">Home Page</a></li>
+            <li class="burger-menu-aboutPage-button"><a href="#about-page" class="burger-menu-aboutPage-button">About</a></li>            
+        </div>
+      </ul>
+      <!---->
       <ul class="desktop-menu">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="#home-page" class="desktop-menu-home">Home</a></li>
+        <li><a href="#about-page" class="desktop-menu-about">About</a></li>
       </ul>        
     </section>
     <div class="nav-logo-container">
-      <div class="nav-logo-img"></div>
-      <h1 class="nav-logo">Libra</h1>
+      <a href="#home-page" class="nav-logo-link">
+        <div class="nav-logo-img"></div>
+          <h1 class="nav-logo">Libra</h1>
+      </a>
     </div>    
   </header>
 
@@ -41,7 +52,7 @@
 
     <!--    home page    -->
     
-    <section class="home-page">
+    <section class="home-page" id="home-page">
 
       <!--    titles    -->
     <section class="home-page-intro">
@@ -62,7 +73,7 @@
         <!--    where and when descrip    -->
         
         <div class="home-page-info">
-          <h2 class="home-page-info-date">2023-10-15 ~ 16</h2>
+          <h2 class="home-page-info-date">2023.10.15 ~ 16</h2>
           <h3 class="home-page-info-place">see you on: Dubai Exhibition Centre</h3>
         </div>
     </section>
@@ -76,24 +87,29 @@
         </div>
         <div class="home-page-main-program-container">
           <div class="home-page-main-program-1">
-            <h2 class="home-page-main-program-1-oratory">name</h2>
-            <p class="home-page-main-program-paragraph"> lkajslkdajslkdjklajsd</p>
+            <img src="image/program_icon_01.png" alt="">
+            <h2 class="home-page-main-program-1-oratory">Lecture</h2>
+            <p class="home-page-main-program-paragraph"> Listen to the speakers from various countries about the messages of sharing and opening.</p>
           </div>
           <div class="home-page-main-program-2">
-            <h2 class="home-page-main-program-2-oratory">name</h2>
-            <p class="home-page-main-program-paragraph"> lkajslkdajslkdjklajsd</p>
+            <img src="image/program_icon_02.png" alt="">
+            <h2 class="home-page-main-program-2-oratory">Exhibition</h2>
+            <p class="home-page-main-program-paragraph"> Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>
           </div>
           <div class="home-page-main-program-3">
-            <h2 class="home-page-main-program-3-oratory">name</h2>
-            <p class="home-page-main-program-paragraph"> lkajslkdajslkdjklajsd</p>
+            <img src="image/program_icon_03.png" alt="">
+            <h2 class="home-page-main-program-3-oratory">Forum</h2>
+            <p class="home-page-main-program-paragraph"> Have the time to share your thoughts and opinions with experts for each topic.</p>
           </div>
           <div class="home-page-main-program-4">
-            <h2 class="home-page-main-program-4-oratory">name</h2>
-            <p class="home-page-main-program-paragraph"> lkajslkdajslkdjklajsd</p>
+            <img src="image/program_icon_04.png" alt="">
+            <h2 class="home-page-main-program-4-oratory">Workshop</h2>
+            <p class="home-page-main-program-paragraph"> Try creating your own work using open source license rather than just watching at it.</p>
           </div>
           <div class="home-page-main-program-5">
-            <h2 class="home-page-main-program-5-oratory">name</h2>
-            <p class="home-page-main-program-paragraph"> lkajslkdajslkdjklajsd</p>
+            <img src="image/program_icon_05.png" alt="">
+            <h2 class="home-page-main-program-5-oratory">Ignite</h2>
+            <p class="home-page-main-program-paragraph"> get opportunities to network with CC affiliates around the world, also after the summit.</p>
           </div>
         </div>
 
@@ -115,15 +131,13 @@
     
     <!--    about me page   -->
 
-    <section class="about-page">
+    <section class="about-page" id="about-page">
 
       <!--    titles    -->
 
       <div class="about-page-tittles">
         <h2 class="about-page-h2">"Security is the future"</h2>
-        <h1 class="about-page-h1">"Block-chain first"</h1>
-        <h1 class="about-page-h1">"TECH EXTRAVAGANCE"</h1>
-        <h1 class="about-page-h1">"2023"</h1>
+        <h1 class="about-page-h1">Block-chain first TECH EXTRAVAGANCE 2023</h1>
       </div>
 
       <!--    description of the event    -->
@@ -140,32 +154,36 @@
 
       <div class="about-page-info">
         <h2 class="about-page-info-date">Pongace en contacto a:</h2>
-        <h3 class="about-page-info-place">mail: kjashdkjahskjd@ajksdh.com & instagram: kjashjkd x ej</h3>
+        <h3 class="about-page-info-place">mail: cryptoconferences@gmail.com & instagram: cryptOk</h3>
       </div>
       
     </section>
 
     <section class="about-page-past-content">
-      <!--  my logo-->  
-      <div class="about-page-past-logo">
-      </div>
       <!--  titles of page past  -->
       <div class="about-page-past">
           <h1 class="about-page-past-h1">See the past CC Global Summits</h1>
           <div class="about-page-past-border"></div>
-          <h2 class="about-page-past-h2">Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw</h2>
+          <h2 class="about-page-past-h2">The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July.
+            After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize.
+            After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:</h2>
+      </div>
+      <!--  my logo-->  
+      <div class="about-page-past-logo">
+        <img src="image/logo-no-circle.png" alt="" width="100px">
+        <h1 class="about-page-past-logo-text">Libra</h1>
       </div>
       <!--  img of page past  -->
       <div class="about-page-past-img">
         <!-- agregar background img -->
         <div class="about-page-past-background-1">
          <h1 class="about-page-past-media-h1-1">2018</h1>
-         <h2 class="about-page-past-media-h2-1">lakjsdklajskldjalksd</h2>
+         <h2 class="about-page-past-media-h2-1">First Congress in Bs As</h2>
         </div>
         <!-- agregar background img -->
         <div class="about-page-past-background-2">
          <h1 class="about-page-past-media-h1-1">2020</h1>
-         <h2 class="about-page-past-media-h2-2">klasjdlkasjdklajskld</h2>
+         <h2 class="about-page-past-media-h2-2">Second Congres in Germany</h2>
         </div>
       </div>
     </section>
