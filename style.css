@@ -34,10 +34,19 @@ body {
     justify-content: center;
     text-align: center;
     padding-right: 55px;
-  } 
+  }
+
+  .nav-logo-img {
+    width: 50px;
+    height: 50px;
+    background-image: url(image/logo.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
   .nav-logo{
-    /*display: none;*/
+    font-weight: 200;
   }
 
   /* burger button content style */
@@ -85,14 +94,22 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
-    height: 18vh;
+    height: 100%;
+    background-color: transparent;
+
   }
 
   /* home page titles h1 style */
 
   .home-page-h1 {
-    font-size: 25px;
-    font-weight: 900;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgba(500,0,0, 0.05);
+    text-transform: uppercase;
+    background-image: url(image/background-title.jpg);
+    background-size: inherit;
+    background-position: top;
+    -webkit-background-clip: text;
   }
 
   /* home page titles h2 style */
@@ -296,7 +313,7 @@ body {
     justify-content: space-between;
     text-align: center;
     width: 90%;
-    height: 18vh;
+    height: 100%;
     padding: 5px;
   }
 
@@ -338,7 +355,7 @@ body {
     align-items: center;
     background-color: #f7f7f8;
     font-size: 20px;
-    padding-top: 20px;
+    padding: 20px;
   }
 
   /* about page date style */
@@ -352,9 +369,120 @@ body {
   .about-page-info-place {
     color: #838383;
     font-size: 16px;
+    font-weight: 700;
+    padding: 20px;
   }
 
   .about-page-speakers-content {
     background-color: #fafafa;
+  }
+
+  /* about page past container style */
+
+  .about-page-past-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* about page past style */
+
+  .about-page-past {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-page-past-h1 {
+    color: #2c2c2c;
+    font-size: 28px;
+    margin: 10px;
+  }
+
+  .about-page-past-border {
+    width: 35px;
+    border-top: 2px solid #ec5242;
+  }
+
+  .about-page-past-h2 {
+    color: #838383;
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  /* about page past media style */
+
+  .about-page-past-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-page-past-background-1{
+    width: 100%;
+    height: 46vmin;
+    background-image: url(image/media-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  .about-page-past-media-h1-1 {
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .about-page-past-media-h2-1 {
+    width: 100%;
+    color: #ffffff;
+  }
+
+  .about-page-past-background-2{
+    width: 100%;
+    height: 46vmin;
+    background-image: url(image/media-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  .about-page-past-media-h1-2 {
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .about-page-past-media-h2-2 {
+    width: 100%;
+    color: #ffffff;
+  }
+
+  /* about page past sponsors style */
+
+  .about-page-past-sponsors {
+    width: 100%;
+    height: 182px;
+    color: #ffffff;
+    background-color: #414246;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
   }
 }
