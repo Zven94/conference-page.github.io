@@ -1,5 +1,5 @@
 * {
-  border: 1px solid greenyellow;
+/*  border: 1px solid greenyellow; */
   margin: 0;
 }
 
@@ -69,6 +69,8 @@ body {
     margin-right: 10px;
     width: 20px;
     height: 20px;
+    background-color: transparent;
+    border: 0;
   }
 
   .burger-menu-home-page {
@@ -168,7 +170,7 @@ body {
   /* home page intro content style */
 
   .home-page-intro {
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -302,7 +304,9 @@ body {
     color: #ec5242;
     display: flex;
     align-items: center;
-    font-size: 4vw;
+    font-size: 3.2vw;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .home-page-main-program-2 {
@@ -320,7 +324,9 @@ body {
     color: #ec5242;
     display: flex;
     align-items: center;
-    font-size: 4vw;
+    font-size: 3.2vw;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .home-page-main-program-3 {
@@ -338,7 +344,9 @@ body {
     color: #ec5242;
     display: flex;
     align-items: center;
-    font-size: 4vw;
+    font-size: 3.2vw;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .home-page-main-program-4 {
@@ -356,7 +364,9 @@ body {
     color: #ec5242;
     display: flex;
     align-items: center;
-    font-size: 4vw;
+    font-size: 3.2vw;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .home-page-main-program-5 {
@@ -374,7 +384,9 @@ body {
     color: #ec5242;
     display: flex;
     align-items: center;
-    font-size: 4vw;
+    font-size: 3.2vw;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .home-page-main-program-paragraph {
@@ -432,7 +444,7 @@ body {
 
   .about-page-h1 {
     width: 80%;
-    font-size: 10vw;
+    font-size: 8vmin;
     font-weight: 900;
   }
 
@@ -448,7 +460,7 @@ body {
   .about-page-text {
     color: #000000;
     background-color: #ffffff;
-    width: 100%;
+    width: 93%;
     height: 164px;
     font-size: 14px;
     line-height: 24px;
@@ -646,6 +658,7 @@ body {
   }
 
   .speaker-page-container {
+    width: 100%;
     margin-bottom: 10px;
     display: flex;
     justify-content: start;

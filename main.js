@@ -96,7 +96,7 @@ myArr = [
     'Changpeng Zhao',
     'image/changpeng-zhao.jpg',
     'Binance CEO',
-    'Binance Exchange & Binance Smart Chain'
+    'In his career he create important project like Binance Exchange & Binance Smart Chain.'
     ),
     new SpeakerData (
     5,

@@ -1,5 +1,5 @@
 * {
-  border: 1px solid greenyellow;
+/*  border: 1px solid greenyellow; */
   margin: 0;
 }
 
@@ -70,7 +70,7 @@ main {
 /*----------------------------------------------*/
 
 .nav-bar {
-  top: 32px;
+  top: 30px;
   margin: 0;
   width: 100vw;
   height: 63px;
@@ -162,22 +162,23 @@ main {
   order: 1;
   width: 100%;
   margin-top: 100px;
-  background-image: url(image/background-desktop-intro.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
+  
 }
 
 /* home page intro content style */
 
 .home-page-intro {
   width: 100%;
-  height: 64vh;
+  height: 55vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
+  background-image: url(image/background-desktop-intro.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto;
 }
 
 /* home page titles style */
@@ -190,13 +191,15 @@ main {
   width: 50%;
   height: 29%;
   background-color: transparent;
+  text-align: center;
+  margin-top: 20px;
 
 }
 
 /* home page titles h1 style */
 
 .home-page-h1 {
-  font-size: 55px;
+  font-size: 5.8vmin;
   font-weight: bold;
   color: rgba(0,0,0, 0.05);
   text-transform: uppercase;
@@ -216,14 +219,15 @@ main {
 /* home page paragraph style */
 
 .home-page-text {
-  width: 29%;
+  width: 32%;
   height: 18%;
   background-color: #f8f8f8;
   text-align: center;
   border: 2px solid white;
-  margin: 20px;
-  padding: 10px;
-  font-size: 2vmin;
+}
+
+.home-page-text-p {
+  font-size: 1.8vmin;
 }
 
 .home-page-info {
@@ -351,9 +355,13 @@ main {
     align-items: center;
   }
 
-  .speaker-page-div {
+  .speaker-page-h1-div{
     width: 51px;
     border-top: 2px solid #ec5242;
+    margin-bottom: 20px;
+  }
+
+  .speaker-page-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
