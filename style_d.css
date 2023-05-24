@@ -161,7 +161,7 @@ main {
 .home-page {
   order: 1;
   width: 100%;
-  margin-top: 65px;
+  margin-top: 100px;
   background-image: url(image/background-desktop-intro.png);
   background-repeat: no-repeat;
   background-position: top center;
@@ -172,7 +172,7 @@ main {
 
 .home-page-intro {
   width: 100%;
-  margin-top: 63px;
+  height: 64vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,8 +187,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 90%;
-  height: 100%;
+  width: 50%;
+  height: 29%;
   background-color: transparent;
 
 }
@@ -196,7 +196,7 @@ main {
 /* home page titles h1 style */
 
 .home-page-h1 {
-  font-size: 45px;
+  font-size: 55px;
   font-weight: bold;
   color: rgba(0,0,0, 0.05);
   text-transform: uppercase;
@@ -209,13 +209,15 @@ main {
 /* home page titles h2 style */
 
 .home-page-h2 {
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 300;
 }
 
 /* home page paragraph style */
 
 .home-page-text {
+  width: 29%;
+  height: 18%;
   background-color: #f8f8f8;
   text-align: center;
   border: 2px solid white;
@@ -225,15 +227,14 @@ main {
 }
 
 .home-page-info {
+  width: 32%;
   margin-bottom: 30px;
   font-family: 'Gothic A1', sans-serif;
-  font-size: 24px;
-  font-weight: 900;
 }
 
 .home-page-info-date {
   font-family: 'Gothic A1', sans-serif;
-  font-size: 24px;
+  font-size: 2.5vw;
   font-weight: 900;
   color: #595959;
   letter-spacing: -0.08em;
@@ -241,8 +242,8 @@ main {
 
 .home-page-info-place {
   font-family: 'Gothic A1', sans-serif;
-  font-size: 13px;
-  font-weight: 900;
+  font-size: 1.5vw;
+  font-weight: 700;
   color: #868686;
 }
 
@@ -265,13 +266,48 @@ main {
 
   .home-page-main-program-container {
     width: 90%;
+    height: 40%;
     color: #d3d3d3;
-    background-color: rgba(59, 62, 69,0.3);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
+  }
+
+  .home-page-main-program-1 {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(59, 62, 69,0.3);
+    margin: 10px;
+  }
+
+  .home-page-main-program-2 {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(59, 62, 69,0.3);
+    margin: 10px;
+  }
+
+  .home-page-main-program-3 {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(59, 62, 69,0.3);
+    margin: 10px;
+  }
+
+  .home-page-main-program-4 {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(59, 62, 69,0.3);
+    margin: 10px;
+  }
+
+  .home-page-main-program-5 {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(59, 62, 69,0.3);
+    margin: 10px;
   }
 
   .home-page-main-program-1-oratory {
@@ -338,6 +374,7 @@ main {
   }
 
   .sponsor-page-past-sponsors {
+    margin-top: 50px;
     width: 100%;
     height: 182px;
     color: #ffffff;
@@ -366,12 +403,13 @@ main {
   /* ------------------------------------------------------------------- */
 
   .about-page {
-    display: flex;
     order: 4;
     width: 100%;
     background-image: url(image/background-desktop-about.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
   }
@@ -385,9 +423,10 @@ main {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    width: 90%;
+    width: 40%;
     height: 100%;
     padding: 5px;
+    margin-top: 100px;
   }
 
   /* about page titles h1 style */
@@ -400,7 +439,7 @@ main {
   /* about page titles h2 style */
 
   .about-page-h2 {
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 300;
   }
 
@@ -414,8 +453,14 @@ main {
     font-size: 14px;
     line-height: 24px;
     display: flex;
+    justify-content: center;
     text-align: center;
     align-items: center;
+  }
+
+  .about-page-text-p {
+    width: 86%;
+    font-size: 25px;
   }
 
   /* about page contact style */
@@ -461,7 +506,7 @@ main {
   }
 
   .about-page-past-logo {
-    width: 24%;
+    width: 200px;
     height: auto;
     color: #5f5f5f;
     display: flex;
