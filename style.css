@@ -201,6 +201,7 @@ body {
     background-size: inherit;
     background-position: top;
     -webkit-background-clip: text;
+    text-align: center;
   }
 
   /* home page titles h2 style */
