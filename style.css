@@ -14,6 +14,8 @@ body {
   /* nav style */
 
   .nav-bar {
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 63px;
     position: fixed;
@@ -26,10 +28,57 @@ body {
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
   }
 
+  .nav-menuContainer {
+    width: 55px;
+    position: absolute;
+  }
+
   /*  burger menu  */
 
   .burger-menu {
+    position: absolute;
     display: none;
+    top: -35px;
+    left: 0;
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+  }
+
+  .burger-menu-style {
+    width: 45%;
+    height: 95%;
+    background-image: url(image/burger-menu-background.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #272a31;
+  }
+
+  .exitButton {
+    float: right;
+    background-image: url(image/close-mobile-menu.png);
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .burger-menu-home-page {
+    margin-top: 20px;
+    color: #ec5242;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .burger-menu-aboutPage-button {
+    margin-top: 20px;
+    color: #ec5242;
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 40px;
   }
   
   /* logo for nav */
@@ -381,7 +430,7 @@ body {
     align-items: center;
     background-color: #f7f7f8;
     font-size: 20px;
-    padding: 20px;
+    padding-top: 20px;
   }
 
   /* about page date style */

@@ -35,6 +35,16 @@ main {
 
 .burger-menu {
   display: none;
+  width: 0;
+  height: 0;
+}
+
+.bugerBtn {
+  background-color: transparent;
+  border: 0;
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .nav-logo-link {
