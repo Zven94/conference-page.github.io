@@ -19,7 +19,58 @@ main {
   text-align: center;
 }
 
+/*-------------------Grey Nav Bar--------------------*/
+
+.nav-bar-grey {
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  height: 30px;
+  background-color: #3e3e3e;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-bar-grey-fabook {
+  width: 10px;
+  height: 30px;
+  background-image: url(image/facebook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 20px;
+}
+
+.nav-bar-grey-twitter {
+  width: 10px;
+  height: 30px;
+  padding-right: 20px;
+  background-image: url(image/twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-bar-grey-language {
+  color: #fff;
+  padding-right: 20px;
+}
+
+.nav-bar-grey-mypage {
+  color: #fff;
+  padding-right: 20px;
+}
+
+.nav-bar-grey-logout {
+  color: #fff;
+  padding-right: 20px;
+}
+
+
+/*----------------------------------------------*/
+
 .nav-bar {
+  top: 32px;
   margin: 0;
   width: 100vw;
   height: 63px;
@@ -254,7 +305,7 @@ main {
   /* speaker page main content style */
   /* ------------------------------------------------------------------- */
 
-  .speaker-page{
+  .speaker-page {
     order: 2;
     width: 100%;
     display: flex;
@@ -514,4 +565,52 @@ main {
     width: 100%;
     color: #ffffff;
   }
+
+  /*  ------------------------------------------------------  */
+  /*  speaker page content  */
+  /*  ------------------------------------------------------  */
+
+  .speaker-page-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 33%));
+    grid-gap: 10px;
+  }
+    
+  .speaker-page-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .speaker-page-container-img {
+    width: 177px;
+    height: auto;
+  }
+
+  .speaker-page-container-button{
+    display: none;
+  }
+
+  /*  style for text on image  */
+  .speaker-page-container-h1 {
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+  }
+
+  .speaker-page-container-h2-1 {
+    font-size: 15px;
+    color: #f78c89;
+    font-weight: 500;
+    letter-spacing: -0.09em;
+  }
+
+  .speaker-page-container-h2-2 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+  }
 }
+

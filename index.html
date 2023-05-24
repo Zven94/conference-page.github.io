@@ -17,33 +17,49 @@
 
 <body>
   <!--    bar menu and logo  -->
-  <header class="nav-bar">
-    <section class="nav-menuContainer">
-      <button class="bugerBtn">
-        <div class="burger-icon line1"></div>
-        <div class="burger-icon line2"></div>
-        <div class="burger-icon line3"></div>
-      </button>
-      <!--burger menu-->
-      <ul class="burger-menu">
-        <div class="burger-menu-style">
-            <li class="burger-menu-exit-button"><button class="exitButton"></button></li>
-            <li class="burger-menu-homePage-button"><a href="#home-page" class="burger-menu-home-page">Home Page</a></li>
-            <li class="burger-menu-aboutPage-button"><a href="#about-page" class="burger-menu-aboutPage-button">About</a></li>            
-        </div>
-      </ul>
-      <!---->
-      <ul class="desktop-menu">
-        <li><a href="#home-page" class="desktop-menu-home">Home</a></li>
-        <li><a href="#about-page" class="desktop-menu-about">About</a></li>
-      </ul>        
+  <header >
+    <section class="nav-bar-grey">
+      <a href="" class="nav-bar-grey-fabook"></a>
+      <a href="" class="nav-bar-grey-twitter"></a>
+      <a href="" class="nav-bar-grey-language">Language</a>
+      <a href="" class="nav-bar-grey-mypage">My Page</a>
+      <a href="" class="nav-bar-grey-logout">Logout</a>
     </section>
-    <div class="nav-logo-container">
-      <a href="#home-page" class="nav-logo-link">
-        <div class="nav-logo-img"></div>
-          <h1 class="nav-logo">Libra</h1>
-      </a>
-    </div>    
+    <div class="nav-bar">
+      <section class="nav-menuContainer">
+        
+        <button class="bugerBtn">
+          <div class="burger-icon line1"></div>
+          <div class="burger-icon line2"></div>
+          <div class="burger-icon line3"></div>
+        </button>
+        <!--burger menu-->
+        <ul class="burger-menu">
+          <div class="burger-menu-style">
+              <li class="burger-menu-exit-button"><button class="exitButton"></button></li>
+              <li class="burger-menu-homePage-button"><a href="#home-page" class="burger-menu-home-page">Home Page</a></li>
+              <li class="burger-menu-aboutPage-button"><a href="#about-page" class="burger-menu-aboutPage-button">About</a></li>           
+              <li class="burger-menu-aboutPage-other"><a href="" class="burger-menu-aboutPage-other">Join</a></li>
+              <li class="burger-menu-aboutPage-other"><a href="" class="burger-menu-aboutPage-other">Sponsors</a></li>
+              <li class="burger-menu-aboutPage-other"><a href="" class="burger-menu-aboutPage-other">News</a></li> 
+          </div>
+        </ul>
+        <!---->
+        <ul class="desktop-menu">
+          <li><a href="#home-page" class="desktop-menu-home">Home</a></li>
+          <li><a href="#about-page" class="desktop-menu-about">About</a></li>
+          <li><a href="" class="desktop-menu-about">Join</a></li>
+          <li><a href="" class="desktop-menu-about">Sponsors</a></li>
+          <li><a href="" class="desktop-menu-about">News</a></li> 
+        </ul>        
+      </section>
+      <div class="nav-logo-container">
+        <a href="#home-page" class="nav-logo-link">
+          <div class="nav-logo-img"></div>
+            <h1 class="nav-logo">Libra</h1>
+        </a>
+      </div>
+    </div>
   </header>
 
   <!--    home page and about me page   -->
@@ -87,27 +103,27 @@
         </div>
         <div class="home-page-main-program-container">
           <div class="home-page-main-program-1">
-            <img src="image/program_icon_01.png" alt="">
+            <img src="image/program_icon_01.png" alt="" class="home-page-main-program-img">
             <h2 class="home-page-main-program-1-oratory">Lecture</h2>
             <p class="home-page-main-program-paragraph"> Listen to the speakers from various countries about the messages of sharing and opening.</p>
           </div>
           <div class="home-page-main-program-2">
-            <img src="image/program_icon_02.png" alt="">
+            <img src="image/program_icon_02.png" alt="" class="home-page-main-program-img">
             <h2 class="home-page-main-program-2-oratory">Exhibition</h2>
             <p class="home-page-main-program-paragraph"> Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>
           </div>
           <div class="home-page-main-program-3">
-            <img src="image/program_icon_03.png" alt="">
+            <img src="image/program_icon_03.png" alt="" class="home-page-main-program-img">
             <h2 class="home-page-main-program-3-oratory">Forum</h2>
             <p class="home-page-main-program-paragraph"> Have the time to share your thoughts and opinions with experts for each topic.</p>
           </div>
           <div class="home-page-main-program-4">
-            <img src="image/program_icon_04.png" alt="">
+            <img src="image/program_icon_04.png" alt="" class="home-page-main-program-img">
             <h2 class="home-page-main-program-4-oratory">Workshop</h2>
             <p class="home-page-main-program-paragraph"> Try creating your own work using open source license rather than just watching at it.</p>
           </div>
           <div class="home-page-main-program-5">
-            <img src="image/program_icon_05.png" alt="">
+            <img src="image/program_icon_05.png" alt="" class="home-page-main-program-img">
             <h2 class="home-page-main-program-5-oratory">Ignite</h2>
             <p class="home-page-main-program-paragraph"> get opportunities to network with CC affiliates around the world, also after the summit.</p>
           </div>
@@ -124,8 +140,8 @@
     
     <section class="speaker-page">
       <h1 class="speaker-page-h1">Featured Speaker</h1>
-      <div class="speaker-page-div"></div>
-      <div class="speaker-page-container"></div>
+      <div class="speaker-page-div">
+      </div>
         <!--    add here with js   -->
     </section>
     
@@ -137,23 +153,24 @@
 
       <div class="about-page-tittles">
         <h2 class="about-page-h2">"Security is the future"</h2>
-        <h1 class="about-page-h1">Block-chain first TECH EXTRAVAGANCE 2023</h1>
+        <h1 class="about-page-h1">Block-chain first TECH SUMMIT 2023</h1>
       </div>
 
       <!--    description of the event    -->
 
-      <div class="about-page-text">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Praesentium maxime magni eum quas, 
-           quam eveniet cumque dolores sed illo quos saepe repellat incidunt beatae.
-           Unde voluptas repellendus vitae placeat cupiditate.
+      <div >
+        <p class="about-page-text">Blockchain Summit is back, 
+          one of the most popular and important crypto events worldwide,
+           aimed at market leaders, Web3 sector entrepreneurs, investors,
+            and developers. To attend with a 15% discount,
+             use the promotional code BCS2023.
         </p>
       </div>
       
       <!--    contact info    -->
 
       <div class="about-page-info">
-        <h2 class="about-page-info-date">Pongace en contacto a:</h2>
+        <h2 class="about-page-info-date">Please contact us per Email for nay further questions about Block-chain first TECH SUMMIT 2023:</h2>
         <h3 class="about-page-info-place">mail: cryptoconferences@gmail.com & instagram: cryptOk</h3>
       </div>
       
@@ -162,16 +179,22 @@
     <section class="about-page-past-content">
       <!--  titles of page past  -->
       <div class="about-page-past">
-          <h1 class="about-page-past-h1">See the past CC Global Summits</h1>
+          <h1 class="about-page-past-h1">Creative Commons Block-chain TECH SUMMIT 2023 Logo</h1>
           <div class="about-page-past-border"></div>
-          <h2 class="about-page-past-h2">The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July.
-            After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize.
-            After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:</h2>
+          <h2 class="about-page-past-h2">The logo Block-chain TECH SUMMIT 2023 was decided through 
+            the logo competition from 8, June to 7, July.</h2>
       </div>
       <!--  my logo-->  
       <div class="about-page-past-logo">
         <img src="image/logo-no-circle.png" alt="" width="100px">
         <h1 class="about-page-past-logo-text">Libra</h1>
+      </div>
+      <!--    --> 
+      <div class="about-page-past">
+        <h1 class="about-page-past-h1">See the past Block-chain TECH SUMMIT 2023</h1>
+        <div class="about-page-past-border"></div>
+        <h2 class="about-page-past-h2">Take a look at the past two Block-chain TECH SUMMIT 
+          which took place in Buenos Aires and in Warsaw.</h2>
       </div>
       <!--  img of page past  -->
       <div class="about-page-past-img">
@@ -190,6 +213,7 @@
     <section class="sponsor-page">
       <div class="sponsor-page-past-sponsors">
         <div><h1>Our Partners</h1></div>
+        <div class="sponsor-page-past-div"></div>
         <div class="sponsor-img-1"><img src="image/airbnb 1.png" alt=""><img src="image/mozilla 1.png" alt=""><img src="image/naver 1.png" alt=""></div>
         <div class="sponsor-img-2"><img src="image/googlekorea 1.png" alt=""><img src="image/daumkakaologo 1.png" alt=""></div>
       </div>
