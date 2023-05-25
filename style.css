@@ -687,6 +687,15 @@ body {
     text-align: center;
   }
 
+  .speaker-page-container-2 {
+    text-align: start;
+    margin-left: 15px;
+  }
+
+  .speaker-page-container-hr {
+    width: 25px;
+  }
+
   .speaker-page-container-img {
     width: 177px;
     height: auto;
@@ -727,11 +736,12 @@ body {
     color: #f78c89;
     font-weight: 500;
     letter-spacing: -0.09em;
+    font-style: italic;
   }
 
   .speaker-page-container-h2-2 {
-    color: #000;
-    font-weight: 600;
+    color: #333;
+    font-weight: 400;
     font-size: 14px;
   }
 
