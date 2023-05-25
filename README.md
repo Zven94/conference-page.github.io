@@ -3,7 +3,7 @@
   
   <br/>
 
-  <h3><b>Template</b></h3>
+  <h3><b>BLOCK-CHAIN TECHNO SUMMIT 2023</b></h3>
 
 </div>
 
