@@ -1,16 +1,15 @@
 * {
-/*  border: 1px solid greenyellow; */
+  /*  border: 1px solid greenyellow; */
   margin: 0;
 }
 
 body {
   background-color: #fafafa;
-  color:#272a31;
+  color: #272a31;
   font-family: 'Lato', sans-serif;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
-  
   .nav-bar-grey {
     display: none;
   }
@@ -27,7 +26,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #fff;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
   }
 
@@ -58,7 +57,7 @@ body {
     background-repeat: no-repeat;
     background-color: #272a31;
     padding-left: 30px;
-    padding-top: 20px
+    padding-top: 20px;
   }
 
   .exitButton {
@@ -97,7 +96,7 @@ body {
     text-decoration: none;
     padding-right: 40px;
   }
-  
+
   /* logo for nav */
 
   .nav-logo-link {
@@ -109,7 +108,7 @@ body {
     color: #414246;
   }
 
-  .nav-logo-container{
+  .nav-logo-container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -134,7 +133,7 @@ body {
 
   /* burger button content style */
 
-  .bugerBtn{
+  .bugerBtn {
     position: relative;
     left: 10px;
     width: 50px;
@@ -187,7 +186,6 @@ body {
     width: 90%;
     height: 100%;
     background-color: transparent;
-
   }
 
   /* home page titles h1 style */
@@ -195,7 +193,7 @@ body {
   .home-page-h1 {
     font-size: 45px;
     font-weight: bold;
-    color: rgba(0,0,0, 0.05);
+    color: rgba(0, 0, 0, 0.05);
     text-transform: uppercase;
     background-image: url(image/background-title.jpg);
     background-size: inherit;
@@ -241,8 +239,10 @@ body {
     color: #868686;
   }
 
-  /* ------------------------------------------------------------------- */ 
+  /* ------------------------------------------------------------------- */
+
   /* home page main content style */
+
   /* ------------------------------------------------------------------- */
 
   .home-page-main-program {
@@ -256,7 +256,7 @@ body {
     text-align: center;
   }
 
-  .home-page-main-program-img{
+  .home-page-main-program-img {
     width: 50px;
     height: 50px;
   }
@@ -271,11 +271,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 25px
-  }
-
-  .home-page-main-program-title {    
-
+    margin: 25px;
   }
 
   .home-page-main-program-border {
@@ -286,7 +282,7 @@ body {
   }
 
   .home-page-main-program-container {
-  /*  background-color: #3a3d44;*/
+    /*  background-color: #3a3d44; */
     width: 90%;
   }
 
@@ -295,7 +291,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: rgba(58,61,68, 0.5);
+    background-color: rgba(58, 61, 68, 0.5);
     height: 70px;
     padding: 5px;
     margin: 10px;
@@ -315,7 +311,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: rgba(58,61,68, 0.3);
+    background-color: rgba(58, 61, 68, 0.3);
     height: 70px;
     padding: 5px;
     margin: 10px;
@@ -335,7 +331,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: rgba(58,61,68, 0.5);
+    background-color: rgba(58, 61, 68, 0.5);
     height: 70px;
     padding: 5px;
     margin: 10px;
@@ -355,7 +351,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: rgba(58,61,68, 0.5);
+    background-color: rgba(58, 61, 68, 0.5);
     height: 70px;
     padding: 5px;
     margin: 10px;
@@ -375,7 +371,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: rgba(58,61,68, 0.5);
+    background-color: rgba(58, 61, 68, 0.5);
     height: 70px;
     padding: 5px;
     margin: 10px;
@@ -394,12 +390,11 @@ body {
     display: flex;
     align-items: center;
     font-size: 3vw;
-    
   }
 
   /*  summit button style   */
 
-  .home-page-info-joinNowBtn{
+  .home-page-info-joinNowBtn {
     width: 300px;
     height: 68px;
     margin: 20px;
@@ -410,9 +405,11 @@ body {
   }
 
   /*  ------------------------------------------------------  */
+
   /*  about page content  */
+
   /*  ------------------------------------------------------  */
-  
+
   .about-page {
     width: 100%;
     margin-top: 63px;
@@ -459,8 +456,8 @@ body {
   /* about page paragraph style */
 
   .about-page-text {
-    color: #000000;
-    background-color: #ffffff;
+    color: #000;
+    background-color: #fff;
     width: 93%;
     height: 164px;
     font-size: 14px;
@@ -568,7 +565,7 @@ body {
     align-items: center;
   }
 
-  .about-page-past-background-1{
+  .about-page-past-background-1 {
     width: 100%;
     height: 46vmin;
     background-image: url(image/media-1.jpg);
@@ -584,16 +581,16 @@ body {
 
   .about-page-past-media-h1-1 {
     text-align: center;
-    color: #ffffff;
+    color: #fff;
   }
 
   .about-page-past-media-h2-1 {
     width: 100%;
-    color: #ffffff;
+    color: #fff;
     font-size: 3vw;
   }
 
-  .about-page-past-background-2{
+  .about-page-past-background-2 {
     width: 100%;
     height: 46vmin;
     background-image: url(image/media-2.jpg);
@@ -609,18 +606,18 @@ body {
 
   .about-page-past-media-h1-2 {
     text-align: center;
-    color: #ffffff;
+    color: #fff;
   }
 
   .about-page-past-media-h2-2 {
     width: 100%;
-    color: #ffffff;
+    color: #fff;
     font-size: 3vw;
   }
 
   .sponsor-page-past-div {
     width: 55px;
-    border-top: 2px solid #ec5242 ;
+    border-top: 2px solid #ec5242;
   }
 
   /* about page past sponsors style */
@@ -628,7 +625,7 @@ body {
   .sponsor-page-past-sponsors {
     width: 100%;
     height: 216px;
-    color: #ffffff;
+    color: #fff;
     background-color: #414246;
     display: flex;
     flex-direction: column;
@@ -638,10 +635,11 @@ body {
   }
 
   /*  ------------------------------------------------------  */
+
   /*  speaker page content  */
+
   /*  ------------------------------------------------------  */
-  
-  
+
   .speaker-page-div {
     width: 90%;
     height: 100%;
@@ -666,7 +664,7 @@ body {
     align-items: center;
     text-align: center;
   }
-  
+
   .speaker-page-container-img {
     width: 177px;
     height: auto;
@@ -676,7 +674,7 @@ body {
     display: none;
   }
 
-  .speaker-page-container-button{
+  .speaker-page-container-button {
     margin-top: 33px;
     width: 85%;
     height: 50px;
@@ -697,7 +695,7 @@ body {
   }
 
   .speaker-page-container-h1 {
-    color: #000000;
+    color: #000;
     font-size: 24px;
     letter-spacing: -0.02em;
   }
@@ -710,7 +708,7 @@ body {
   }
 
   .speaker-page-container-h2-2 {
-    color: #000000;
+    color: #000;
     font-weight: 600;
     font-size: 14px;
   }
