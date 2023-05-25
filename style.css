@@ -134,6 +134,7 @@ body {
   /* burger button content style */
 
   .bugerBtn {
+    border: 0;
     position: relative;
     left: 10px;
     width: 50px;
