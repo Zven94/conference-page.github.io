@@ -402,6 +402,7 @@ body {
     color: #fafafa;
     font-size: 16px;
     font-weight: 900;
+    border: 0;
   }
 
   /*  ------------------------------------------------------  */
@@ -632,6 +633,27 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+  }
+
+  .sponsor-page-past-img-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sponsor-img-1 {
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sponsor-img-2 {
+    width: 70%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
   }
 
   /*  ------------------------------------------------------  */

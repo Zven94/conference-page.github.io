@@ -75,42 +75,42 @@ const myArr = [
   new SpeakerData(
     1,
     'Satoshi Nakamoto',
-    'image/satoshi-nakamoto-profile.jpg',
+    'image/satoshi-nakamoto-profile.png',
     'Software Developer',
     'In his career as Dev he create, desing and develop the first decentralize protocol for value exchange',
   ),
   new SpeakerData(
     2,
     'Vitalik Buterin',
-    'image/vitalik-buterin-profile.jpg',
+    'image/vitalik-buterin-profile.png',
     'Software Developer',
     'He take part as a blockchain Dev group and desing the Ethereum protocol. Wicht integrate the smart contract to a block-chain network',
   ),
   new SpeakerData(
     3,
     'Gavin Wood',
-    'image/gavin-wood.jpg',
+    'image/gavin-wood.png',
     'Polkadot CEO',
     'He take part as a blockchain Dev group and desing the Polkadot protocol. Wicht integrate a second layer to Ethereum network',
   ),
   new SpeakerData(
     4,
     'Changpeng Zhao',
-    'image/changpeng-zhao.jpg',
+    'image/changpeng-zhao.png',
     'Binance CEO',
     'In his career he create important project like Binance Exchange & Binance Smart Chain.',
   ),
   new SpeakerData(
     5,
     'Michael Saylor',
-    'image/michael-saylor.jpg',
+    'image/michael-saylor.png',
     'Microstrategy CEO',
     'Big supporter of block-chain tecnology, his company is one of the bigger BTC holder',
   ),
   new SpeakerData(
     6,
     'Charles Hoskinson',
-    'image/charles-hoskinson.jpg',
+    'image/charles-hoskinson.png',
     'Software Developer',
     'He take part as a blockchain Dev group and desing the Cardano protocol',
   ),
@@ -151,8 +151,11 @@ function creatSpeakerSection(i) {
   // create h2 element for speaker sections
 
   const speakerH21 = document.createElement('h2');
+  const speakerHr = document.createElement('hr');
   speakerDiv2.appendChild(speakerH21);
+  speakerDiv2.appendChild(speakerHr);
   speakerH21.classList.add('speaker-page-container-h2-1');
+  speakerHr.classList.add('speaker-page-container-hr');
   speakerH21.textContent = myArr[i].workTitle;
 
   // create h2 element for speaker sections
