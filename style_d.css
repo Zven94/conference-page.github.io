@@ -97,7 +97,7 @@
   }
 
   .nav-logo-link {
-    width: 140px;
+    width: 115px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,7 +106,7 @@
   }
 
   .nav-menuContainer {
-    width: 100%;
+    width: 65%;
     height: 70px;
     display: flex;
     justify-content: end;
@@ -114,7 +114,7 @@
   }
 
   .nav-logo-container {
-    width: 60%;
+    width: 200px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -322,6 +322,12 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+  }
+
+  .home-page-main-program-border {
+    width: 55px;
+    display: inline-flex;
+    border-top: 2px solid #ec5242;
   }
 
   .home-page-main-program-container {
