@@ -80,8 +80,7 @@ This web was developed with HTML-CSS language.
 
 ## 🚀 Live Demo (Cooming soon) <a name="live-demo"></a>
 
-- [[Live Demo Link]
-- <a href="https://zven94.github.io/conference-page/"> ((New Demo! ! !)) </a>
+- <a href="https://zven94.github.io/conference-page.github.io/"> [[Live Demo Link] </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
